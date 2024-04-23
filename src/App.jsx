@@ -15,15 +15,15 @@ function App() {
     e.preventDefault()
 
 
-if (nombre.trim().length < 3 || nombre.trim() !== nombre) {
-  setMensaje ("Por favor chequea que la información sea correcta.");
+if (nombre.trim().length <= 3 || nombre.trim() !== nombre) {
+  setMensaje ("El nombre debe contener más de 3 letras.");
   setMostrarCard("");
   setNombre("");
  
 }
 
-else if (animal.length < 6) {
-  setMensaje ("Por favor chequea que la información sea correcta.")
+else if (animal.length < 4) {
+  setMensaje ("La categoria de animal debe contener más de 3 letras.")
   setMostrarCard("");
   setAnimal("")
   

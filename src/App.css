@@ -40,7 +40,7 @@
   
 
   .estiloFondo{
-    background-color:rgb(217, 216, 216);
+    background-color:#007bff;
     border-radius: 10px;
     padding: 10px 20px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
@@ -53,7 +53,7 @@
   }
 
 h2 {
-  color: rgb(83, 37, 158);
+  color: white;
   
 }
 
